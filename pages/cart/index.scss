@@ -1,0 +1,139 @@
+// 添加收货地址
+.receiver-address-row{
+    button{
+        margin:20rpx auto;
+    }
+.user_info_row{
+		display: flex;
+		padding: 20rpx;
+    .user_info{
+        flex: 5;
+    }
+    .user_phoneNum{
+            flex: 3;
+            text-align: right;
+        }
+    }
+}
+
+// 购物车列表--开始
+.cart_content {
+	// 1.标题
+	.cart_title {
+			padding:20rpx;
+			font-size:36rpx;
+			font-weight: 600;
+			border-top: 1rpx solid var(--themeColor);
+			border-bottom: 1rpx solid var(--themeColor);
+	}
+}
+// 1.列表
+.cart_list {
+	.cart_item {
+		padding:20rpx;
+		display: flex;
+		border-bottom: 1rpx solid #ccc;
+		.cart_checkbox {
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		navigator.cart_img {
+			flex: 2;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			image {
+				width:80%;
+			}
+		}
+	}
+}
+// 2.商品信息
+.cart_info {
+	flex: 4;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	.goods_name {
+		display: -webkit-box;
+		overflow: hidden;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		color:#666;
+	}
+
+	.goods_price_wrap {
+		display:flex;
+		justify-content: space-between;
+		.goods_price {
+			color: var(--themeColor);
+			font-size:34rpx;
+		}
+		.cart_num_tools {
+			display: flex;
+			.num_edit,.goods_num{
+				width: 55rpx;
+				height: 55rpx;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.num_edit{
+				border: 1rpx solid #ccc;
+			}
+		}
+	}
+}
+//购物车列表--结束
+
+// 底部工具栏
+.footer_tools {
+	width:100%;
+	height: 90rpx;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	background: #fff;
+	display: flex;
+	border-top: 1rpx solid #ccc;
+	.check_wrap {
+		flex: 2;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.total_price_wrap {
+		flex:4;
+		text-align: right;
+		padding-right:25rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		
+		.total_price{
+			.total_price_text {
+				color: var(--themeColor);
+				font-size: 34rpx;
+				font-weight: 600;
+			}
+		}
+		view{
+			font-size:24rpx;
+		}
+	}
+
+	.order_pay_wrap {
+		flex:3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: var(--themeColor);
+		color: #fff;
+		font-size: 34rpx;
+
+	}
+}

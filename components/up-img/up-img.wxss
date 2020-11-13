@@ -1,0 +1,19 @@
+.img-warp {
+  margin-left: 20rpx;
+  width: 90rpx;
+  height: 90rpx;
+  position: relative;
+}
+
+.img-warp .img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+
+.img-warp .icon {
+  position: absolute;
+  top: -22rpx;
+  right: -22rpx;
+  z-index: 10;
+}

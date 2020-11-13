@@ -1,0 +1,20 @@
+.order_main .order_item {
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx;
+  color: #666;
+}
+
+.order_main .order_item > view {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+}
+
+.order_main .order_item .order_price_wrap .price_value {
+  color: var(--themeColor);
+  font-size: 32rpx;
+}
+
+.order_main .order_item .order_date_wrap .date_value {
+  color: #000;
+}

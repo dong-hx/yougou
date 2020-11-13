@@ -1,0 +1,64 @@
+page {
+  background: #eee;
+}
+
+.fd_main {
+  padding: 20rpx;
+  color: #666;
+}
+
+.fd_main .fd_tips {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fd_main .fd_tips text {
+  text-align: center;
+  width: 30%;
+  padding: 20rpx 10rpx;
+  margin: 20rpx 10rpx;
+  background: #fff;
+  text-align: centers;
+}
+
+.fd_main .fd_content {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.fd_main .fd_content textarea {
+  padding: 10rpx;
+}
+
+.fd_main .fd_content .fd_tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fd_main .fd_content .fd_tools button {
+  color: #666;
+  background: #eee;
+  font-size: 40rpx;
+  margin: 0;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.fd_main .submit_btn {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fd_main .submit_btn button {
+  width: 30%;
+  font-size: 34rpx;
+  background: #f12d2d;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

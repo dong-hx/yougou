@@ -1,0 +1,134 @@
+page {
+  background: #edece8;
+}
+
+.userInfo_container {
+  background: var(--themeColor);
+  height: 45vh;
+  position: relative;
+}
+
+.userInfo_container .userInfo_wrap .userInfo_bgImage {
+  filter: blur(10rpx);
+  transform: scale(1.1);
+}
+
+.userInfo_container .userInfo_wrap .userInfo_content {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+}
+
+.userInfo_container .userInfo_wrap .userInfo_content image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.userInfo_container .userInfo_wrap .userInfo_content view {
+  color: #fff;
+  text-align: center;
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+
+.userInfo_container .login_btn {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 40rpx 60rpx;
+  border: 2rpx solid #fff;
+  border-radius: 20rpx;
+  font-size: 60rpx;
+  color: #fff;
+}
+
+.user_content {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.user_main {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  color: #666;
+  margin-bottom: 100rpx;
+  font-size: 24rpx;
+}
+
+.user_main .history_wrap {
+  background: #fff;
+  display: flex;
+}
+
+.user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+
+.user_main .history_wrap navigator .his_num {
+  color: var(--themeColor);
+  font-size: 32rpx;
+}
+
+.orders_wrap {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.orders_wrap .orders_title {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.orders_wrap .orders_content {
+  display: flex;
+}
+
+.orders_wrap .orders_content navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+
+.orders_wrap .orders_content navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+
+.address_wrap {
+  padding: 20rpx;
+  margin: 20rpx 0;
+  background: #fff;
+}
+
+.app_info_wrap {
+  background: #fff;
+}
+
+.app_info_wrap .app_info_item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.app_info_wrap .app_info_item:last-child {
+  border: none;
+}
+
+.app_info_wrap .contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend_wrap {
+  padding: 20rpx;
+  margin-top: 20rpx;
+  background: #fff;
+}

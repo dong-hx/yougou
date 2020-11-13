@@ -1,0 +1,4 @@
+<view class="img-warp">
+    <image class="img" src="{{src}}"></image>
+    <icon  class="icon" type="clear" size="23" color="red" data-index="{{index}}" bindtap="handleRemoveImg"></icon>
+</view>

@@ -1,0 +1,17 @@
+@import '/styles/iconfont.wxss';
+
+/* 页面格式化 */
+page,view,navigator,text{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+} 
+page{
+		/* 主题颜色 */
+	--themeColor: #eb4450;
+		/* 字体大小 */
+		font-size: 28rpx;
+}
+image{
+	width:100%;
+}

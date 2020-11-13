@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tabs": "/components/tabs/tabs",
+    "up-img": "/components/up-img/up-img"
+  },
+  "navigationBarTitleText":"反馈中心"
+}

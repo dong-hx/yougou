@@ -1,0 +1,44 @@
+.order_main {
+    .order_item {
+        border-bottom: 1rpx solid #ccc;
+        padding:20rpx;
+        color:#666;
+        &>view{
+            display:flex;
+            justify-content: space-between;
+            padding:10rpx 0;
+        }
+      .order_num_wrap {
+          
+        .num_text {
+  
+        }
+  
+        .num_value {
+  
+        }
+      }
+  
+      .order_price_wrap {
+        .price_text {
+  
+        }
+  
+        .price_value {
+            color:var(--themeColor);
+            font-size: 32rpx;
+
+        }
+      }
+  
+      .order_date_wrap {
+        .date_text {
+  
+        }
+  
+        .date_value{
+            color: #000;
+        }
+      }
+    }
+  }

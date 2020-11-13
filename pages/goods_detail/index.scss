@@ -1,0 +1,98 @@
+$toolsHeight:90rpx;
+page{
+    padding-bottom: $toolsHeight;
+}
+// 轮播图
+swiper{
+    height:70vw;
+    text-align: center;
+    image{
+        width:60%;
+    }
+}
+// 价格
+.goods_price{
+    color: var(--themeColor);
+    font-size: 32rpx;
+    font-weight: 600;
+    padding:15rpx;
+}
+// 描述
+.goods_name_row{
+    display:flex;
+    border-bottom: 5rpx solid #dedede;
+    padding: 15rpx 0;
+    .goods_name{
+        flex:5;
+        padding: 0 15rpx;
+        color: black;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+
+    }
+    .goods_collect{
+        flex:1;
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30rpx;
+        border-left: 1rpx solid black;
+        .icon-shoucang1{
+            color:rgb(245, 127, 1);
+        }
+    }
+}
+// 详情
+.goods_info{
+    .info_title{
+        color: var(--themeColor);
+        font-size: 32rpx;
+        font-weight: 600;
+        padding: 15rpx;
+    }
+}
+// 底部工具栏
+.btm_tools{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:$toolsHeight;
+    display: flex;
+    background: #fff;
+    .tool_item , .btn_cart , .btn_buy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tool_item{
+        flex:1;
+        font-size: 24rpx;
+        position: relative;
+        button{
+            position: absolute;
+            width: 100%;
+            height:100%;
+            opacity: 0;
+        }
+    }
+    .btn_cart, .btn_buy{
+        flex:2;
+        background: #000;
+    }
+    .btn_cart{
+        background: #ffa500;
+        color:white;
+        font-size: 32rpx;
+        font-weight: 600;
+    }
+    .btn_buy{
+        background:#eb4450;
+        color:white;
+        font-size: 32rpx;
+        font-weight: 600;
+    }
+}
